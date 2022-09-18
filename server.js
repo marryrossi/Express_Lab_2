@@ -30,7 +30,7 @@ app.get("/magic/:question", (req, res) => {
     res.send(`<h1>Question: ${req.params.question} <br> Answer: ${random}</h1>`)
 });
 
-// telling app to listen on port
+// Telling app to listen on port
 app.listen(3000, function(){ 
     console.log("Express is listening for requests from the browser")
 });
